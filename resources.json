@@ -1,0 +1,22 @@
+[
+  { "id": "r1", "title": "MDN HTML Basics", "category": "HTML", "link": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML", "description": "A clear guide to HTML fundamentals and semantic structure." },
+  { "id": "r2", "title": "Semantic HTML Reference", "category": "HTML", "link": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics", "description": "How to write meaningful, accessible markup." },
+  { "id": "r3", "title": "MDN CSS Layout", "category": "CSS", "link": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout", "description": "Modern layout: Flexbox and Grid patterns." },
+  { "id": "r4", "title": "A Complete Guide to Flexbox", "category": "CSS", "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/", "description": "Practical Flexbox patterns and examples." },
+  { "id": "r5", "title": "A Complete Guide to CSS Grid", "category": "CSS", "link": "https://css-tricks.com/snippets/css/complete-guide-grid/", "description": "Grid fundamentals and real-world layouts." },
+  { "id": "r6", "title": "MDN JavaScript Guide", "category": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "description": "Core language concepts and patterns." },
+  { "id": "r7", "title": "Event Delegation", "category": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events", "description": "Handle events efficiently for dynamic lists." },
+  { "id": "r8", "title": "localStorage API", "category": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage", "description": "Persist app state on the client." },
+  { "id": "r9", "title": "Fetch API", "category": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API", "description": "Async fetching data with loading and error states." },
+  { "id": "r10", "title": "Accessibility Basics", "category": "Tools", "link": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility", "description": "Make your UI more usable and inclusive." },
+  { "id": "r11", "title": "Bootstrap Icons", "category": "Tools", "link": "https://icons.getbootstrap.com/", "description": "Icon set used in this project." },
+  { "id": "r12", "title": "Inter Font", "category": "Tools", "link": "https://fonts.google.com/specimen/Inter", "description": "Google Font used for a modern clean UI." },
+  { "id": "r13", "title": "Form Validation UX", "category": "Tools", "link": "https://www.w3.org/WAI/tutorials/forms/validation/", "description": "Good patterns for form validation messaging." },
+  { "id": "r14", "title": "Date Input (HTML)", "category": "HTML", "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date", "description": "Use date inputs correctly across browsers." },
+  { "id": "r15", "title": "CSS Variables", "category": "CSS", "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties", "description": "Theme and design tokens with custom properties." },
+  { "id": "r16", "title": "Responsive Design Basics", "category": "CSS", "link": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design", "description": "Mobile-first approach and breakpoints." },
+  { "id": "r17", "title": "Dialog Element", "category": "HTML", "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog", "description": "Native modal dialogs for forms and confirms." },
+  { "id": "r18", "title": "Array Methods", "category": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array", "description": "Map, filter, sort and reduce for app state logic." },
+  { "id": "r19", "title": "Working with JSON", "category": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON", "description": "Parse and stringify JSON safely." },
+  { "id": "r20", "title": "Live Server (VS Code)", "category": "Tools", "link": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer", "description": "Run local projects so fetch() works correctly." }
+]
