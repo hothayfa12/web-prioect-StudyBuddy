@@ -1063,28 +1063,8 @@ function initApp() {
 }
 
 document.addEventListener("DOMContentLoaded", initApp);
-document.addEventListener("click", function (e) {
-  const btn = e.target.closest("[data-action='delete']");
-  if (!btn) return;
 
-  e.preventDefault();
-  e.stopPropagation();
-  if (e.stopImmediatePropagation) e.stopImmediatePropagation();
 
-  const id = btn.dataset.id;
-  if (!id) return;
-
-  const ok = window.confirm("Delete this task?");
-  if (!ok) return;
-
-  if (!Array.isArray(window.tasks)) return;
-
-  window.tasks = window.tasks.filter(t => String(t.id) !== String(id));
-  localStorage.setItem("tasks", JSON.stringify(window.tasks));
-
-  if (typeof renderTasks === "function") renderTasks();
-  if (typeof renderDashboard === "function") renderDashboard();
-}, true);
 
 
 
