@@ -1062,7 +1062,8 @@ function initApp() {
   fetchResources();
 }
 
-document.addEventListener("DOMContentLoaded", initApp);
+//document.addEventListener("DOMContentLoaded", initApp);
+
 
 
 
