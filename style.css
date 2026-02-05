@@ -272,10 +272,20 @@ body.dark .btn-danger{background:rgba(251,113,133,.14); border-color:rgba(251,11
   display:none;
 }
 
-.modal{border:none; padding:0; background:transparent}
-.modal::backdrop{background:rgba(0,0,0,.45)}
+.modal{
+  border:none; 
+  padding:0; 
+  background:transparent;
+  max-width:min(560px, 92vw);
+  margin:auto;
+  z-index:9999;
+}
+.modal::backdrop{
+  background:rgba(0,0,0,.45);
+  z-index:9998;
+}
 .modal-card{
-  width:min(560px, 92vw);
+  width:100%;
   background:var(--surface);
   border:1px solid var(--border);
   border-radius:20px;
